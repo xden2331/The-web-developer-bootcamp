@@ -18,19 +18,22 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
+    <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/bc32855b9f.js"></script>
-    <title>Cat! Gallery</title>
 
-    <link rel="stylesheet" type="text/css" href="./css/gallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Perfect match</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -42,63 +45,43 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#"><i class="fas fa-cat"></i>
-                    Cat</a>
+                    Purrfect Match</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Log in</a></li>
+                    <li><a href="#">Sign up
+                            <i class="fas fa-user-plus"></i></a></li>
+                    <li><a href="#">Log in
+                            <i class="fas fa-sign-in-alt"></i></a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
 
     <div class="container">
-        <!-- Jumbotron -->
-        <div class="jumbotron">
-            <h1><i class="fas fa-camera-retro"></i> Cat image
-                gallery</h1>
-            <p>猫猫🐱，吸猫吸猫吸猫吸猫吸猫</p>
-        </div>
-
         <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image1"></div>
+            <div class="col-lg-12">
+                <div id="content">
+                    <h1>Purffect match</h1>
+                    <h3>The only human-feline dating app</h3>
+                    <hr>
+                    <button class="btn btn-default btn-lg" type="button"><i class="fas fa-paw"></i>
+                        Get Started!</button>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image2"></div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image3"></div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image1"></div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image2"></div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <div class="image image3"></div>
-                </div>
-            </div>
+        </div>
+    </div>
+
+    <div class="container" id="gallery">
+        <div class="row">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <div class="image image1"></div>
