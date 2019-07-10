@@ -7,17 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet"
+    <!-- <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+        crossorigin="anonymous"> -->
 
-    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/todo.css">
+    <title>Todo List</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
 
+    <div id="container">
+        <h1>To-do List <span><i id="menu" class="fas fa-chevron-circle-up"></i></span></h1>
+        <input type="text" name="" id="" placeholder="Add New Todo">
+
+        <ul>
+            <li> <span><i class="fas fa-trash-alt"></i></span> Go to potions class</li>
+            <li> <span><i class="fas fa-trash-alt"></i></span> Buy new robes</li>
+            <li> <span><i class="fas fa-trash-alt"></i></span> Visit Hagrid</li>
+        </ul>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -31,6 +42,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/bc32855b9f.js"></script>
+    <script src="./assets/js/todo.js"></script>
 
 </body>
 
